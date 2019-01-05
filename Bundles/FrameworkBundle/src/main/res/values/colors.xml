@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="inspect_black">#384744</color>
+    <color name="light_black">#50000000</color>
+    <color name="dark_gray">#101010</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#fdfdfd</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimary">#4fadf6</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+    <color name="addbluetxt">#108EE9</color>
+
+    <color name="scan_corner_color">#00E5FF</color>
+    <color name="text_prompt">#888888</color>
+    <color name="status_layout_tip_text_color">#BFBFBF</color>
+    <color name="text_normal_color">#666666</color>
+    <color name="text_hint_color">#BBBBBB</color>
+
+    <color name="searchColorDefault">#ffffff</color>
+    <color name="searchColorBackground">#f1f0f6</color>
+    <color name="searchColorText">#ffffff</color>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+</resources>

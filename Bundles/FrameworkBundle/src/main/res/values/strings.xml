@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FrameworkBundel</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">发生意外错误。\n抱歉，给您带来不便。</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新启动</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭程序</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误详情</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">复制日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
+    <string name="common_txt_cancel">取消</string>
+    <string name="common_txt_confirm">确定</string>
+    <string name="name_of_app">深圳智慧监管</string>
+    <string name="scan_business_license_remind">将食品经营许可证二维码放入框中，即可自动扫描</string>
+
+
+    <string name="text_empty">这里暂时没有内容哦～</string>
+    <string name="text_retry">轻触屏幕重试</string>
+    <string name="status_layout_manager_loading">加载中...</string>
+    <string name="text_error">出错了...</string>
+    <string name="loading">加载中...</string>
+    <string name="load_end">没有更多数据了～</string>
+    <string name="network_error">当前无网络，请重试</string>
+    <string name="error_occur">哎呀，发生了未知的错误哦～</string>
+    <string name="search_empty">找不到你想要的内容哦～</string>
+
+    <string-array name="permissions">
+        <item>@string/permission_get_accounts_hint</item>
+        <item>@string/permission_read_phone_hint</item>
+        <item>@string/permission_call_phone_hint</item>
+        <item>@string/permission_camera_hint</item>
+        <item>@string/permission_access_fine_location_hint</item>
+        <item>@string/permission_access_coarse_location_hint</item>
+        <item>@string/permission_read_external_hint</item>
+        <item>@string/permission_white_external_hint</item>
+    </string-array>
+
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">为了保障您的账户安全，请开启读取设备信息的权限。</string>
+    <string name="permission_call_phone_hint">没有此权限，无法拨打电话功能，请开启权限</string>
+    <string name="permission_camera_hint">没有此权限，无法开启拍照功能，请开启权限。</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法使用下载、缓存等功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法使用下载、缓存等重要功能，请开启权限。</string>
+    <string name="permission_request_install_package">没有此权限，无法使用下载、缓存等重要功能，请开启权限。</string>
+</resources>

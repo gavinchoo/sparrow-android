@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <com.sparrow.bundle.framework.base.ui.view.state.LoadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/loadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <in.srain.cube.views.ptr.PtrFrameLayout
+            android:id="@+id/ptrLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.sparrow.bundle.framework.base.ui.view.state.FoodSecurityPullHead
+                android:id="@+id/headView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="PxUsage" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </in.srain.cube.views.ptr.PtrFrameLayout>
+    </com.sparrow.bundle.framework.base.ui.view.state.LoadLayout>
+</layout>

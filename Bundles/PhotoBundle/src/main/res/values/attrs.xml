@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 Zhihu Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <attr name="toolbar" format="reference"/>
+    <attr name="album.dropdown.title.color" format="reference|color"/>
+    <attr name="album.dropdown.count.color" format="reference|color"/>
+    <attr name="album.element.color" format="reference|color"/>
+    <attr name="album.thumbnail.placeholder" format="reference|color"/>
+    <attr name="album.emptyView" format="reference"/>
+    <attr name="album.emptyView.textColor" format="reference|color"/>
+    <attr name="listPopupWindowStyle" format="reference"/>
+    <attr name="page.bg" format="reference|color"/>
+    <attr name="bottomToolbar.bg" format="reference|color"/>
+    <attr name="bottomToolbar.preview.textColor" format="reference|color"/>
+    <attr name="bottomToolbar.apply.textColor" format="reference|color"/>
+    <attr name="preview.bottomToolbar.back.textColor" format="reference|color"/>
+    <attr name="preview.bottomToolbar.apply.textColor" format="reference|color"/>
+    <attr name="item.placeholder" format="reference|color"/>
+    <attr name="item.checkCircle.backgroundColor" format="reference|color"/>
+    <attr name="item.checkCircle.borderColor" format="reference|color"/>
+    <attr name="capture.textColor" format="reference|color"/>
+
+    <attr name="iconSize" format="dimension"/>
+    <attr name="iconMargin" format="dimension"/>
+    <attr name="iconSrc" format="reference"/>
+    <attr name="duration_max" format="integer"/>
+    <declare-styleable name="JCameraView">
+        <attr name="iconSize"/>
+        <attr name="iconMargin"/>
+        <attr name="iconSrc"/>
+        <attr name="duration_max"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="line_count" format="integer"/>
+        <attr name="draw_progress_text" format="boolean"/>
+        <attr name="line_width" format="dimension|reference"/>
+        <attr name="background_color" format="color|reference"/>
+        <attr name="progress_start_color" format="color|reference"/>
+        <attr name="progress_end_color" format="color|reference"/>
+        <attr name="progress_text_color" format="color|reference"/>
+        <attr name="progress_text_size" format="dimension|reference"/>
+        <attr name="progress_stroke_width" format="dimension|reference"/>
+        <attr name="progress_background_color" format="color|reference"/>
+        <attr name="progress_text_format_pattern" format="string|reference"/>
+
+        <attr name="style">
+            <enum name="line" value="0"/>
+            <enum name="solid" value="1"/>
+            <enum name="solid_line" value="2"/>
+        </attr>
+
+        <attr name="progress_shader">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+            <enum name="sweep" value="2"/>
+        </attr>
+
+        <attr name="progress_stroke_cap">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

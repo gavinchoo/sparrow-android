@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryDark"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_search_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_saoyisao_search"
+            android:visibility="gone" />
+
+        <com.medical.bundle.framework.widget.EditTextClear
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_scan"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_search"
+            android:drawablePadding="10dp"
+            android:gravity="start|center_vertical"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>
