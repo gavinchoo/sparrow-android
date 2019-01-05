@@ -4,19 +4,21 @@
     package="com.sparrow.android.demo">
 
     <application
+        android:name="com.sparrow.android.library.app.App"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name="com.sparrow.android.library.MainActivity">
+        <activity android:name="com.sparrow.android.library.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.sparrow.android.library.ui.activity.EdittextDemoActivity"></activity>
     </application>
 
 </manifest>
